@@ -75,7 +75,7 @@ DO NOT SHIP
 
 - `agy` runs in plan mode (`--mode plan`) with the diff inside the prompt, so it needs no tools; the skill still checks `git status` afterwards. Tested on a toy file: it found both planted bugs and changed nothing. Very large diffs that don't fit in one prompt skip the Gemini reviewer.
 - `agy` sometimes says it wrote a file without doing it; the skill uses its printed reply only.
-- The Gemini path was written from the CLI's documented usage but was not run in the test for this release (see below).
+- The Gemini path was tested by hand on that toy file only; it was not part of the full release test below.
 - Codex's read-only sandbox blocks file writes, not side effects of MCP tools. Disable MCP servers for the review if you have any.
 - Very large diffs can exceed the shell's argument limit for `agy -p`; the skill gives a workaround.
 - Tested: Claude Code 2.1.318 host with a subagent and Codex 0.163.0 on a toy repo with two planted bugs. Both reviewers found both bugs and agreed on DO NOT SHIP. Codex as host was not tested.

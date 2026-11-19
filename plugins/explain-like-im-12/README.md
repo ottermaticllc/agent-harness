@@ -50,7 +50,7 @@ Nothing beyond the conversation. It reads no files, writes no files and makes no
 - Description-based triggering is a judgment call by the agent. It may miss a vague "I don't get it" or fire on a casual "what does that mean". Name the skill to force it.
 - The old version of this skill also fired "proactively" whenever an answer had more than two hard terms. That was dropped; it over-triggered.
 - Not every concept has a clean analogy. For very abstract topics the skill will say where the comparison fails early.
-- Evals live in `evals/`; see the repository notes for the latest result.
+- Evals live in `evals/` (two cases: `api-analogy` and `no-ask-end`).
 
 ## Author
 

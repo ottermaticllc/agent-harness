@@ -6,7 +6,7 @@ Skills, Claude Code mods and a guide from the setup I use every day to run codin
 
 - **Skills** follow the open [Agent Skills](https://agentskills.io) format, so they work in Claude Code, Codex and other agents that read `SKILL.md` files.
 - **Mods** are for Claude Code only. They use its early-access mods API (Claude Code 2.1.290 or newer, CLI or desktop app), which may change between releases.
-- Every item was rewritten from my private version for strangers, then tested. Each item's README says what was tested and what was not.
+- Every item was rewritten from my private version for strangers, then tested. Where it matters, an item's README says what was tested and what was not.
 
 ## Who I am and why this exists
 
