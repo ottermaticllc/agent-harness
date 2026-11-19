@@ -1,0 +1,181 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "agent-harness",
+  "description": "Agent skills (work in Claude Code, Codex and other agents) and Claude Code mods from Jared Schulman's daily setup.",
+  "owner": {
+    "name": "Jared Schulman, OtterMatic LLC",
+    "url": "https://jaredschulman.com"
+  },
+  "plugins": [
+    {
+      "name": "session-handoff",
+      "source": "./plugins/session-handoff",
+      "description": "Save a coding session to a handoff file and get a paste-ready prompt for the next session; resume from it with one next action; or close out cleanly without a file.",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "handoff",
+        "session",
+        "context",
+        "resume",
+        "continuity",
+        "skill"
+      ]
+    },
+    {
+      "name": "drift-watch",
+      "source": "./plugins/drift-watch",
+      "description": "Side panel that checks whether a Claude Code session is drifting from its goal, who moved it, and flags deploys and stuck helpers. Uses Haiku for each check.",
+      "version": "1.0.0",
+      "category": "claude-code-mods",
+      "keywords": [
+        "mod",
+        "drift",
+        "goal",
+        "side-panel",
+        "claude-code"
+      ]
+    },
+    {
+      "name": "multi-review",
+      "source": "./plugins/multi-review",
+      "description": "Independent code review by several model families (host agent, Codex CLI, Gemini via agy) in parallel, combined into one SHIP / SHIP WITH AMENDMENTS / DO NOT SHIP verdict.",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "code-review",
+        "codex",
+        "gemini",
+        "antigravity",
+        "second-opinion"
+      ]
+    },
+    {
+      "name": "codex-loop",
+      "source": "./plugins/codex-loop",
+      "description": "Plan, have Codex CLI attack the plan, get human approval, then have Codex build it step by step with proof checks and an independent final review.",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "codex",
+        "planning",
+        "code-review",
+        "agent-workflow",
+        "human-in-the-loop"
+      ]
+    },
+    {
+      "name": "wave-digest",
+      "source": "./plugins/wave-digest",
+      "description": "A small, runnable example of wave orchestration: three parallel read-only workers scan a folder of projects (git activity, TODO/FIXME, recently changed notes), the orchestrator validates their files, and one writer combines them into digest.md.",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "orchestration",
+        "subagents",
+        "parallel",
+        "digest",
+        "codex",
+        "example"
+      ]
+    },
+    {
+      "name": "sessions-panel",
+      "source": "./plugins/sessions-panel",
+      "description": "/sessions: a pane listing live Claude Code and Codex sessions on this computer (status, context, memory, subagents, helper programs), with a confirm-first End button for idle ones",
+      "version": "1.0.0",
+      "category": "claude-code-mods",
+      "keywords": [
+        "claude-code",
+        "mod",
+        "sessions",
+        "codex",
+        "pane",
+        "memory"
+      ]
+    },
+    {
+      "name": "context-nudge",
+      "source": "./plugins/context-nudge",
+      "description": "Shows a Hand off / Dismiss strip when the context window passes 40%, and at 45% and 65% tells Claude to wrap up and recommend a handoff or /compact (never runs either)",
+      "version": "1.0.0",
+      "category": "claude-code-mods",
+      "keywords": [
+        "claude-code",
+        "mod",
+        "context",
+        "compact",
+        "handoff"
+      ]
+    },
+    {
+      "name": "short-and-sweet",
+      "source": "./plugins/short-and-sweet",
+      "description": "A per-chat switch that keeps Claude replies to 1-3 plain sentences unless you ask for more, with a Tell me more button",
+      "version": "1.0.0",
+      "category": "claude-code-mods",
+      "keywords": [
+        "claude-code",
+        "mod",
+        "concise",
+        "replies"
+      ]
+    },
+    {
+      "name": "cache-timer",
+      "source": "./plugins/cache-timer",
+      "description": "Status-line countdown of minutes left before the prompt cache expires, using the cache lifetime the API reports",
+      "version": "1.0.0",
+      "category": "claude-code-mods",
+      "keywords": [
+        "claude-code",
+        "mod",
+        "prompt-cache",
+        "status"
+      ]
+    },
+    {
+      "name": "explain-like-im-12",
+      "source": "./plugins/explain-like-im-12",
+      "description": "Plain-English, analogy-driven explanations of technical topics, with a named breakdown point.",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "explain",
+        "plain-english",
+        "analogy",
+        "teaching",
+        "skill"
+      ]
+    },
+    {
+      "name": "explain-deck",
+      "source": "./plugins/explain-deck",
+      "description": "Turn a topic from your own local files into a short offline HTML explainer deck with speaker notes, a source on every slide and a self-quiz.",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "learning",
+        "slides",
+        "explainer",
+        "quiz",
+        "offline",
+        "skill"
+      ]
+    },
+    {
+      "name": "market-map",
+      "source": "./plugins/market-map",
+      "description": "Build a market map from public filings that name both buyer and service provider: concentration by size band, with an honest denominator.",
+      "version": "1.0.0",
+      "category": "skills",
+      "keywords": [
+        "market-research",
+        "competitive-analysis",
+        "public-data",
+        "sec",
+        "skill"
+      ]
+    }
+  ]
+}

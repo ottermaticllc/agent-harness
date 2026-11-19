@@ -1,0 +1,13 @@
+{
+  "name": "session-handoff",
+  "version": "1.0.0",
+  "description": "Save a coding session to a handoff file and get a paste-ready prompt for the next session; resume from it with one next action; or close out cleanly without a file.",
+  "author": {
+    "name": "Jared Schulman, OtterMatic LLC",
+    "url": "https://jaredschulman.com"
+  },
+  "homepage": "https://github.com/ottermaticllc/agent-harness/tree/main/plugins/session-handoff",
+  "repository": "https://github.com/ottermaticllc/agent-harness",
+  "license": "MIT",
+  "keywords": ["handoff", "session", "context", "resume", "continuity", "skill"]
+}

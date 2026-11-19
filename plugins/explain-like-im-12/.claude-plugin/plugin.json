@@ -1,0 +1,10 @@
+{
+  "name": "explain-like-im-12",
+  "version": "1.0.0",
+  "description": "Plain-English, analogy-driven explanations of technical topics, with a named breakdown point.",
+  "author": { "name": "Jared Schulman, OtterMatic LLC", "url": "https://jaredschulman.com" },
+  "homepage": "https://github.com/ottermaticllc/agent-harness/tree/main/plugins/explain-like-im-12",
+  "repository": "https://github.com/ottermaticllc/agent-harness",
+  "license": "MIT",
+  "keywords": ["explain", "plain-english", "analogy", "teaching", "skill"]
+}

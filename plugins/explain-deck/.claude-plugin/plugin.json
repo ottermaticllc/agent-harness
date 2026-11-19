@@ -1,0 +1,10 @@
+{
+  "name": "explain-deck",
+  "version": "1.0.0",
+  "description": "Turn a topic from your own local files into a short offline HTML explainer deck with speaker notes, a source on every slide and a self-quiz.",
+  "author": { "name": "Jared Schulman, OtterMatic LLC", "url": "https://jaredschulman.com" },
+  "homepage": "https://github.com/ottermaticllc/agent-harness/tree/main/plugins/explain-deck",
+  "repository": "https://github.com/ottermaticllc/agent-harness",
+  "license": "MIT",
+  "keywords": ["learning", "slides", "explainer", "quiz", "offline", "skill"]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "codex-loop",
+  "version": "1.0.0",
+  "description": "Plan, have Codex CLI attack the plan, get human approval, then have Codex build it step by step with proof checks and an independent final review.",
+  "author": {
+    "name": "Jared Schulman, OtterMatic LLC",
+    "url": "https://jaredschulman.com"
+  },
+  "homepage": "https://github.com/ottermaticllc/agent-harness/tree/main/plugins/codex-loop",
+  "repository": "https://github.com/ottermaticllc/agent-harness",
+  "license": "MIT",
+  "keywords": ["codex", "planning", "code-review", "agent-workflow", "human-in-the-loop"]
+}

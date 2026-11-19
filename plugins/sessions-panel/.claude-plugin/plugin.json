@@ -1,0 +1,11 @@
+{
+  "name": "sessions-panel",
+  "version": "1.0.0",
+  "description": "/sessions: a pane listing live Claude Code and Codex sessions on this computer (status, context, memory, subagents, helper programs), with a confirm-first End button for idle ones",
+  "author": { "name": "Jared Schulman, OtterMatic LLC", "url": "https://jaredschulman.com" },
+  "homepage": "https://github.com/ottermaticllc/agent-harness/tree/main/plugins/sessions-panel",
+  "repository": "https://github.com/ottermaticllc/agent-harness",
+  "license": "MIT",
+  "keywords": ["claude-code", "mod", "sessions", "codex", "pane", "memory"],
+  "types": "./types/index.d.ts"
+}

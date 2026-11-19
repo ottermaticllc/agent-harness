@@ -1,0 +1,13 @@
+{
+  "name": "wave-digest",
+  "version": "1.0.0",
+  "description": "A small, runnable example of wave orchestration: three parallel read-only workers scan a folder of projects (git activity, TODO/FIXME, recently changed notes), the orchestrator validates their files, and one writer combines them into digest.md.",
+  "author": {
+    "name": "Jared Schulman, OtterMatic LLC",
+    "url": "https://jaredschulman.com"
+  },
+  "homepage": "https://github.com/ottermaticllc/agent-harness/tree/main/plugins/wave-digest",
+  "repository": "https://github.com/ottermaticllc/agent-harness",
+  "license": "MIT",
+  "keywords": ["orchestration", "subagents", "parallel", "digest", "codex", "example"]
+}

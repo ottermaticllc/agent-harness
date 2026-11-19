@@ -1,0 +1,11 @@
+{
+  "name": "cache-timer",
+  "version": "1.0.0",
+  "description": "Status-line countdown of minutes left before the prompt cache expires, using the cache lifetime the API reports",
+  "author": { "name": "Jared Schulman, OtterMatic LLC", "url": "https://jaredschulman.com" },
+  "homepage": "https://github.com/ottermaticllc/agent-harness/tree/main/plugins/cache-timer",
+  "repository": "https://github.com/ottermaticllc/agent-harness",
+  "license": "MIT",
+  "keywords": ["claude-code","mod","prompt-cache","status"],
+  "types": "./types/index.d.ts"
+}

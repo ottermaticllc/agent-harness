@@ -1,0 +1,13 @@
+{
+  "name": "multi-review",
+  "version": "1.0.0",
+  "description": "Independent code review by several model families (host agent, Codex CLI, Gemini via agy) in parallel, combined into one SHIP / SHIP WITH AMENDMENTS / DO NOT SHIP verdict.",
+  "author": {
+    "name": "Jared Schulman, OtterMatic LLC",
+    "url": "https://jaredschulman.com"
+  },
+  "homepage": "https://github.com/ottermaticllc/agent-harness/tree/main/plugins/multi-review",
+  "repository": "https://github.com/ottermaticllc/agent-harness",
+  "license": "MIT",
+  "keywords": ["code-review", "codex", "gemini", "antigravity", "second-opinion"]
+}

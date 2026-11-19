@@ -1,0 +1,11 @@
+{
+  "name": "drift-watch",
+  "version": "1.0.0",
+  "description": "Side panel that checks whether a Claude Code session is drifting from its goal, who moved it, and flags deploys and stuck helpers. Uses Haiku for each check.",
+  "author": { "name": "Jared Schulman, OtterMatic LLC", "url": "https://jaredschulman.com" },
+  "homepage": "https://github.com/ottermaticllc/agent-harness/tree/main/plugins/drift-watch",
+  "repository": "https://github.com/ottermaticllc/agent-harness",
+  "license": "MIT",
+  "keywords": ["mod", "drift", "goal", "side-panel", "claude-code"],
+  "types": "./types/index.d.ts"
+}

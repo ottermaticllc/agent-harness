@@ -1,0 +1,18 @@
+explain-deck
+Copyright 2026 OtterMatic LLC. Licensed under the MIT License (see the repository LICENSE).
+
+Attribution (Apache License 2.0, section 4 notice):
+
+The method in skills/explain-deck/SKILL.md (a three-stage pipeline of outline, then
+layout choice, then slide fill-in; the content-writing rules; and the layout-selection
+rules) is adapted from Presenton, https://github.com/presenton/presenton,
+Copyright the Presenton authors, licensed under the Apache License, Version 2.0
+(http://www.apache.org/licenses/LICENSE-2.0).
+
+What was adapted: ideas and rule wording, paraphrased and shortened, from the prompts in
+servers/fastapi/utils/llm_calls/ (generate_presentation_outlines.py,
+generate_presentation_structure.py, generate_slide_content.py).
+What was not used: any Presenton source code, its app, database, image generation or web search.
+The slide template (templates/deck.html) and check script are original to this repository.
+Changes were made: rules were rewritten for a local-files, offline, learning-oriented deck.
+At the time of writing, Presenton's own NOTICE file was empty, so no upstream notices are carried over.

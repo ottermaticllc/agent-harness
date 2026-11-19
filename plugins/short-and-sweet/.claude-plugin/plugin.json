@@ -1,0 +1,11 @@
+{
+  "name": "short-and-sweet",
+  "version": "1.0.0",
+  "description": "A per-chat switch that keeps Claude replies to 1-3 plain sentences unless you ask for more, with a Tell me more button",
+  "author": { "name": "Jared Schulman, OtterMatic LLC", "url": "https://jaredschulman.com" },
+  "homepage": "https://github.com/ottermaticllc/agent-harness/tree/main/plugins/short-and-sweet",
+  "repository": "https://github.com/ottermaticllc/agent-harness",
+  "license": "MIT",
+  "keywords": ["claude-code","mod","concise","replies"],
+  "types": "./types/index.d.ts"
+}

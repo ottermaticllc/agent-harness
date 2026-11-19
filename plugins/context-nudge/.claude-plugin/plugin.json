@@ -1,0 +1,11 @@
+{
+  "name": "context-nudge",
+  "version": "1.0.0",
+  "description": "Shows a Hand off / Dismiss strip when the context window passes 40%, and at 45% and 65% tells Claude to wrap up and recommend a handoff or /compact (never runs either)",
+  "author": { "name": "Jared Schulman, OtterMatic LLC", "url": "https://jaredschulman.com" },
+  "homepage": "https://github.com/ottermaticllc/agent-harness/tree/main/plugins/context-nudge",
+  "repository": "https://github.com/ottermaticllc/agent-harness",
+  "license": "MIT",
+  "keywords": ["claude-code","mod","context","compact","handoff"],
+  "types": "./types/index.d.ts"
+}

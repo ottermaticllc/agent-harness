@@ -1,0 +1,10 @@
+{
+  "name": "market-map",
+  "version": "1.0.0",
+  "description": "Build a market map from public filings that name both buyer and service provider: concentration by size band, with an honest denominator.",
+  "author": { "name": "Jared Schulman, OtterMatic LLC", "url": "https://jaredschulman.com" },
+  "homepage": "https://github.com/ottermaticllc/agent-harness/tree/main/plugins/market-map",
+  "repository": "https://github.com/ottermaticllc/agent-harness",
+  "license": "MIT",
+  "keywords": ["market-research", "competitive-analysis", "public-data", "sec", "skill"]
+}
