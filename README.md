@@ -8,6 +8,27 @@ Skills, Claude Code mods and a guide from the setup I use every day to run codin
 - **Mods** are for Claude Code only. They use its early-access mods API (Claude Code 2.1.290 or newer, CLI or desktop app), which may change between releases.
 - Every item was rewritten from my private version for strangers, then tested. Each item's README says what was tested and what was not.
 
+## Who I am and why this exists
+
+I'm Jared Schulman, an AI enablement consultant. I design and build AI systems with teams, from enterprise analytics to full web apps, and teach the people who use them to run them. I run my own company, OtterMatic LLC.
+
+My working setup runs on Claude Code, and Codex works from the same files. I use it for client builds (governed AI answers on company data, AI operating systems for agencies and small teams, web apps with AI agents inside) and for running my own business, like a morning briefing where a fixed set of helper agents gathers what I need for the day.
+
+I think of Claude Code as a restaurant kitchen and of myself as the owner. I don't cook. I set up the kitchen, which is the harness: memory, rules, guards, tools and checks. Then I talk to the head chef, the main agent that runs each session. This repo is a few stations from that kitchen. The full tour is on my site: [My agent harness](https://jaredschulman.com/claude-code-setup).
+
+### Why these pieces
+
+I picked the ones that fix problems I run into every week, and that work without my private setup:
+
+- **Long sessions lose the thread.** session-handoff and context-nudge move the work to a fresh session before quality drops, with the decisions and the next step written down.
+- **Sessions drift from the goal.** drift-watch flags it while the session is still running.
+- **One model has blind spots.** multi-review and codex-loop bring in models from other companies to check the plan and the code.
+- **Running many agents at once gets messy.** The wave orchestration guide is the pattern behind my morning briefing, and sessions-panel shows every session running on the machine.
+- **Answers drift long and technical** when the reader isn't an engineer. short-and-sweet and explain-like-im-12 keep them plain, and explain-deck turns a topic into a short offline deck with speaker notes.
+- market-map is a research method from my client work, and cache-timer is a small helper for knowing when the prompt cache runs out.
+
+What's not here: anything tied to client data or my private notes, and tools other people built that I use every day.
+
 ## Featured
 
 | Item | Type | What it does |
@@ -76,9 +97,9 @@ claude plugin validate .        # marketplace and plugin manifests
 claude plugin test plugins/drift-watch   # mod tests (any mod folder)
 ```
 
-## About me
+## Author
 
-I'm Jared Schulman. I run OtterMatic LLC and help teams put AI agents to work. Portfolio and contact: [jaredschulman.com](https://jaredschulman.com).
+Jared Schulman, OtterMatic LLC. I'm looking for my next AI enablement role, full-time or contract. Work, resume and contact: [jaredschulman.com](https://jaredschulman.com).
 
 ## License
 
